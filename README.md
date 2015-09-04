@@ -12,23 +12,11 @@
 
 ![Network Destruction 1](/network-destruction-1.png)
 
-Σε αρκετές εφαρμογές (μελέτη συμπεριφοράς καταναλωτών, ανάλυση βιοδεικτών, εντοπισμός λογοκλοπής, κ.λπ.) χρειάζεται να βρούμε συχνά στοιχειοσύνολα. Ένας τρόπος εύρεσής τους είναι με τον αλγόριθμο των Agrawal και Srikant. Στη συγκεκριμένη εργασία, καλείστε να υλοποιήσετε τον αλγόριθμο αυτό.
+Με τον τρόπο αυτό, βλέπουμε ότι μετά από την αφαίρεση τεσσάρων κόμβων, το μεγαλύτερο συνδεδεμένο κομμάτι (commented component) του δικτύου περιέχει 17 κόμβους.
 
-Τα καλάθια αντικειμένων, με τα οποία θα εργαστείτε, θα περιέχονται μέσα σε ένα αρχείο `CSV`. Κάθε γραμμή του αρχείου αυτού θα έχει τη μορφή:
-```
-item_1, item_2, ..., item_n
-```
-Για παράδειγμα, ένα τέτοιο αρχείο μπορεί να είναι το παρακάτω:
-```
-Cat, and, dog, bites
-Yahoo, news, claims, a, cat, mated, with, a, dog, and, produced, viable, offspring
-Cat, killer, likely, is, a, big, dog
-Professional, free, advice, on, dog, training, puppy, training
-Cat, and, kitten, training, and, behavior
-Dog, &, Cat, provides, dog, training, in Eugene, Oregon
-"Dog, and, cat", is, a, slang, term, used, by, police, officers, for, a, male-female, relationship
-Shop, for, your, show, dog, grooming, and, pet, supplies
-```
+Ένας άλλος τρόπος εργασίας είναι σε πολλά δίκτυα πιο αποτελεσματικός. Αντί να θεωρούμε ότι ο κόμβος με τη μεγαλύτερη επιρροή είναι αυτός με τους περισσότερους συνδέσμους, ορίζουμε τη *συνολική επιρροή* (collective influence) ενός κόμβου ως εξής:
+
+![Collective Influence](/collective-influence.svg)
 
 Το πρόγραμμά σας θα πρέπει να διαβάζει ένα τέτοιο αρχείο, να βρίσκει συχνά στοιχειοσύνολα σύμφωνα με το κατώφλι που θα δίνει ο χρήστης, και να εξάγει αποτελέσματα σε μορφή `CSV`.
 
