@@ -173,3 +173,8 @@ Size: 2 members: [28, 29]
 Καλή Επιτυχία.
 
 Σημ.: Η εργασία ολοκληρώνεται σε λιγότερο από 200 γραμμές κώδικα Python.
+
+Για περισσότερες πληφορορίες μπορείτε να δείτε:
+
+* István A. Kovács	and Albert-László Barabási, Destruction perfected, Nature 524, 38–39 (06 August 2015). doi:10.1038/524038a
+* Flaviano Morone	and Hernán A. Makse, Influence maximization in complex networks through optimal percolation, Nature 524, 65–68 (06 August 2015). doi:10.1038/nature14604
